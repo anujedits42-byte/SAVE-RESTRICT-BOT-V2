@@ -86,3 +86,7 @@ def lastperson07_keep_alive():
 
     log.info("Health server on :%s", _PORT)
     return True
+
+
+# Alias so bot.py can import `keep_alive` directly
+keep_alive = lastperson07_keep_alive
