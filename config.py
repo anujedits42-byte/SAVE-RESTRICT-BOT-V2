@@ -32,7 +32,7 @@ ADMINS = [int(admin) for admin in os.environ.get("ADMINS", "7892805795").split("
 # ==============================
 
 DB_URI = os.environ.get("DB_URI", "mongodb+srv://Anujedits:Anujedits@cluster0.jmsca6x.mongodb.net/?appName=Cluster0")
-DB_NAME = os.environ.get("DB_NAME", "SaveRestricted2")
+DB_NAME = os.environ.get("DB_NAME", "SaveRestricted")
 
 
 # ==============================
