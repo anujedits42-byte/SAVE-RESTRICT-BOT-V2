@@ -23,7 +23,7 @@ SUBSCRIPTION = os.environ.get('SUBSCRIPTION', 'https://ibb.co/v6vKQbYx')
 FREE_LIMIT_SIZE = 2 * 1024 * 1024 * 1024
 FREE_LIMIT_DAILY = 10
 UPI_ID = os.environ.get("UPI_ID", "971916880@ybl")
-QR_CODE = os.environ.get("QR_CODE", "https://files.catbox.moe/6hyvy7.jpg")
+QR_CODE = os.environ.get("QR_CODE", "https://ibb.co/v6vKQbYx")
 REACTIONS = [
     "👍", "❤️", "🔥", "🥰", "👏", "😁", "🤔", "🤯", "😱", "🤬",
     "😢", "🎉", "🤩", "🤮", "💩", "🙏", "👌", "🕊", "🤡", "🥱",
