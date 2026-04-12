@@ -7,7 +7,7 @@ from urllib.error import URLError
 from urllib.request import Request, urlopen
 
 log = logging.getLogger(__name__)
-_PORT = int(os.environ.get("PORT", 5000))
+_PORT = int(os.environ.get("PORT", 8080))
 _PING_INTERVAL = 300
 _SERVER: HTTPServer | None = None
 _PING_THREAD: threading.Thread | None = None
