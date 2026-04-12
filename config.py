@@ -31,7 +31,7 @@ ADMINS = [int(admin) for admin in os.environ.get("ADMINS", "7892805795").split("
 # Database Configuration
 # ==============================
 
-DB_URI = os.environ.get("DB_URI", "mongodb+srv://Anujedit:Anujedit@cluster0.7cs2nhd.mongodb.net/?appName=Cluster0")
+DB_URI = os.environ.get("DB_URI", "mongodb+srv://Anujedits:Anujedits@cluster0.jmsca6x.mongodb.net/?appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "SaveRestricted2")
 
 
