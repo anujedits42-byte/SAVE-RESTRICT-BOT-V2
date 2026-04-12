@@ -19,11 +19,11 @@ from database.db import db
 import math
 from logger import LOGGER
 logger = LOGGER(__name__)
-SUBSCRIPTION = os.environ.get('SUBSCRIPTION', 'https://ibb.co/v6vKQbYx')
+SUBSCRIPTION = os.environ.get('SUBSCRIPTION', 'https://repgyetdcodkynrbxocg.supabase.co/storage/v1/object/public/images/telegram-1776016326978-9d36addf.jpg')
 FREE_LIMIT_SIZE = 2 * 1024 * 1024 * 1024
 FREE_LIMIT_DAILY = 10
 UPI_ID = os.environ.get("UPI_ID", "971916880@ybl")
-QR_CODE = os.environ.get("QR_CODE", "https://ibb.co/v6vKQbYx")
+QR_CODE = os.environ.get("QR_CODE", "https://repgyetdcodkynrbxocg.supabase.co/storage/v1/object/public/images/telegram-1776016326978-9d36addf.jpg")
 REACTIONS = [
     "👍", "❤️", "🔥", "🥰", "👏", "😁", "🤔", "🤯", "😱", "🤬",
     "😢", "🎉", "🤩", "🤮", "💩", "🙏", "👌", "🕊", "🤡", "🥱",
