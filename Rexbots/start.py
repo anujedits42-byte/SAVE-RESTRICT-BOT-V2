@@ -22,7 +22,7 @@ logger = LOGGER(__name__)
 SUBSCRIPTION = os.environ.get('SUBSCRIPTION', 'https://files.catbox.moe/6hyvy7.jpg')
 FREE_LIMIT_SIZE = 2 * 1024 * 1024 * 1024
 FREE_LIMIT_DAILY = 10
-UPI_ID = os.environ.get("UPI_ID", "9719168804")
+UPI_ID = os.environ.get("UPI_ID", "971916880@ybl")
 QR_CODE = os.environ.get("QR_CODE", "https://files.catbox.moe/6hyvy7.jpg")
 REACTIONS = [
     "👍", "❤️", "🔥", "🥰", "👏", "😁", "🤔", "🤯", "😱", "🤬",
@@ -102,7 +102,7 @@ class script(object):
 • <b>Lifetime Access:</b> ₹3000 / $32.5 (One-Time Payment)
 <blockquote><b>👇 Secure Payment:</b></blockquote>
 <b>💸 UPI ID:</b> <code>{}</code>
-<b>📸 QR Code:</b> <a href='{}'>Scan to Pay</a>
+<b>📸 QR Code:</b> <a href='𝐀𝐧𝐮𝐣'>971916880@ybl</a>
 <i>After Payment: Send Screenshot to Admin for Instant Activation.</i>
 """
     PROGRESS_BAR = """\
