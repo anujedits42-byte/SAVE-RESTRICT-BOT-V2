@@ -133,6 +133,7 @@ class Bot(Client):
             BotCommand("set_repl_word", "Add replace word"),
             BotCommand("rem_repl_word", "Remove replace word"),
             BotCommand("add_premium", "add premium to a user (admin only)"),
+            BotCommand("remove_premium", "remove premium to a user (admin only)"),
             BotCommand("ban", "Ban a user"),
             BotCommand("unban", "Unban a user"),
         ]
